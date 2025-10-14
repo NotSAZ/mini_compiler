@@ -1,0 +1,25 @@
+void main() {
+    int i, sum = 0, n = 5;
+
+    int x = 10;
+    int y = 20;
+
+    if (x < y) {
+        printf("x is less than y\n");
+    } else {
+        printf("x is not less than y\n");
+    }
+
+    for (i = 1; i <= n; i++) {
+        sum = sum + i;
+    }
+    printf("Sum of first %d numbers: %d\n", n, sum);
+
+    int count = 0;
+    while (count < 3) {
+        printf("Count is: %d\n", count);
+        count++;
+    }
+
+    return 0;
+}

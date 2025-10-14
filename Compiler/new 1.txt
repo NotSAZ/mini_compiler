@@ -1,0 +1,6 @@
+*code output
+*symbol table(optional)
+*assembly code
+*different file runs individually(modularity)
+*works with different types of variables(int, string, float)
+*git upload
